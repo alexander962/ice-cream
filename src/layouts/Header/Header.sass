@@ -1,0 +1,131 @@
+.Header
+  padding: 20px
+  border-bottom: 1px solid#F8F8F8
+
+  .container
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &-logo
+    display: flex
+    align-items: center
+
+    img
+      margin-right: 10px
+  
+  &-profile
+    display: flex
+    align-items: center
+
+    &_img-prof
+      margin-right: 10px
+    
+    &_text
+      font-size: 14px
+      line-height: 16px
+      color: #212542
+      margin-right: 53px
+    
+    &_sign-up
+      margin-right: 3px
+      cursor: pointer
+
+    &_sign-in
+      margin-left: 3px
+      cursor: pointer
+    
+    &_card
+      margin-left: 6px
+      font-size: 14px
+      line-height: 16px
+      color: #212542
+      cursor: pointer
+
+    .basket
+      display: flex
+      align-items: center
+      position: relative
+      cursor: pointer
+
+      &_buy
+        position: absolute
+        width: 16px
+        height: 16px
+        background: #FE8888
+        border: 1px solid #FFFFFF
+        border-radius: 100%
+        box-sizing: border-box
+        font-weight: bold
+        font-size: 8px
+        color: #FFFFFF
+        text-align: center
+        padding: 2px
+        top: 0
+        right: -5px
+
+  .burger-img
+    width: 50px
+    height: 50px
+
+.drop-down-menu
+  border: 1px solid gray
+  display: flex
+  flex-direction: column
+  width: 150px
+  position: absolute
+  right: 0
+  top: 92px
+  background: gray
+
+  .Header-profile_text
+    margin: 0
+    text-align: center
+    border-bottom: 1px solid black
+    padding: 10px 0
+    color: #F1F7FF
+    font-size: 18px
+
+  .basket
+      display: flex
+      flex-direction: row
+      align-items: center
+      position: relative
+      margin: 0 auto
+      padding: 10px 0
+      cursor: pointer
+
+      .Header-profile_card
+        color: #F1F7FF
+        font-size: 18px
+        cursor: pointer
+
+      &_buy
+        position: absolute
+        width: 16px
+        height: 16px
+        background: #FE8888
+        border: 1px solid #FFFFFF
+        border-radius: 100%
+        box-sizing: border-box
+        font-weight: bold
+        font-size: 8px
+        color: #FFFFFF
+        text-align: center
+        padding: 2px
+        top: 5px
+        left: 10px
+
+.outBtn
+  margin-left: 8px
+  border: 1px solid gray
+  padding: 5px
+  cursor: pointer
+  border-radius: 20px
+
+
+
+@media (max-width: 600px) 
+  .Header-logo_text
+    display: none
+  

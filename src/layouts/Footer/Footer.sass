@@ -1,0 +1,41 @@
+.Footer
+  .container
+    .footer-main
+      display: flex
+      justify-content: space-between
+      align-items: center
+      padding: 32px 0
+
+      &_img
+        display: flex
+        align-items: center
+
+        img
+          margin-right: 10px
+      
+      &_nav
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        width: 50%
+        list-style-type: none
+        a
+          text-decoration: none
+          font-size: 14px
+          line-height: 20px
+          color: rgba(33, 37, 66, 0.7)
+
+  .footer-info
+    background: #F4F4F5
+    padding: 14px 0
+    font-size: 12px
+    line-height: 16px
+    color: rgba(33, 37, 66, 0.5)
+  
+@media (max-width: 400px) 
+  .Footer
+    .container
+      .footer-main
+        &_nav
+          width: 80%
+  

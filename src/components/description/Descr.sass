@@ -1,0 +1,155 @@
+.Descr
+
+  &-block
+    min-height: calc( 100vh - 87px - 154px )
+    padding: 40px 0 120px 0
+    box-sizing: border-box
+  
+  .main-link
+    font-size: 14px
+    line-height: 14px
+    color: #212542
+    opacity: 0.5
+    text-decoration: none
+
+  .product-link
+    font-size: 14px
+    line-height: 14px
+    color: #212542
+  
+  &-main
+    display: flex
+    justify-content: space-between
+    padding-top: 30px
+  
+  &-img
+    display: flex
+    justify-content: center
+    min-width: 654px
+    height: 524px
+    background: #F1F7FF
+    border-radius: 30px
+    text-align: center
+    margin-right: 48px
+
+    img
+      object-fit: none
+
+  &-info
+
+    h5
+      display: inline-block
+      background: #F2F2FA
+      border-radius: 26px
+      font-weight: 500
+      font-size: 12px
+      line-height: 12px
+      color: rgba(33, 37, 66, 0.9)
+      padding: 8px 16px
+      margin-bottom: 24px
+
+    h2
+      font-weight: 600
+      font-size: 36px
+      line-height: 36px
+      color: #212542
+      margin-bottom: 24px
+    
+    &_description
+      display: block
+      font-weight: 600
+      font-size: 14px
+      line-height: 22px
+      color: #212542
+      margin-bottom: 8px
+    
+    &_text
+      font-size: 14px
+      line-height: 22px
+      color: rgba(33, 37, 66, 0.7)
+      margin-bottom: 40px
+  
+  .count
+    display: flex
+    align-items: center
+    margin-bottom: 48px
+
+    &_price
+      font-size: 24px
+      line-height: 16px
+      color: rgba(33, 37, 66, 0.7)
+      margin-right: 24px
+    
+    .btn-minus
+      width: 32px
+      height: 32px
+      background: #EEEEEE
+      border-radius: 20px
+      font-size: 30px
+      border: none
+      cursor: pointer
+      color: #989898
+    
+    &-num
+      display: flex
+      align-items: center
+
+    &-main
+      margin: 0 16px
+
+  .add-card
+    display: flex
+    align-items: center
+    justify-content: center
+    min-width: 180px
+    min-height: 60px
+    background: linear-gradient(92.65deg, #DFEBFF -21.79%, #88ADCA 126.46%), #AECEF3
+    border-radius: 69px
+    border: none
+    cursor: pointer
+    // padding: 16px 42px
+    color: #ffffff
+
+    &_img
+      margin-right: 10px
+  
+  .success
+    display: flex
+
+    span
+      display: flex
+      align-items: center
+      margin-left: 32px
+      font-weight: 500
+      font-size: 14px
+      line-height: 16px
+      color: #A3D69B
+
+      img
+        margin-right: 8px
+
+@media ( max-width: 1200px )
+  .Descr
+    &-img
+      min-width: 50%
+
+@media ( max-width: 750px )
+  .Descr
+    &-main
+      flex-direction: column
+    &-img
+      min-width: 50%
+      margin-bottom: 30px
+
+@media ( max-width: 400px )
+  .Descr
+
+    &-img
+      min-width: 90%
+      margin-right: 0
+      img
+        object-fit: fill
+        max-width: 100%
+
+
+  
